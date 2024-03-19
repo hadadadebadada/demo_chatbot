@@ -2,6 +2,7 @@
 
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { BackgroundGradient } from "@/components/ui/background-gradient"
 
 import { useChat } from "ai/react";
 import { useRef, useState, ReactElement } from "react";
@@ -31,7 +32,7 @@ export function ChatWindow(props: {
   const intemediateStepsToggle = showIntermediateStepsToggle && (
     <div>
       <input type="checkbox" id="show_intermediate_steps" name="show_intermediate_steps" checked={showIntermediateSteps} onChange={(e) => setShowIntermediateSteps(e.target.checked)}></input>
-      <label htmlFor="show_intermediate_steps"> Show intermediate steps</label>
+      <label htmlFor="show_intermediate_steps"> Zwischenschritte anzeigen</label>
     </div>
   );
 
@@ -107,6 +108,9 @@ export function ChatWindow(props: {
   }
 
   return (
+<BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900 min-h-[400px]">
+
+
     <div className={`flex flex-col items-center p-4 md:p-8 rounded grow overflow-hidden ${(messages.length > 0 ? "border" : "")}`}>
       <h2 className={`${messages.length > 0 ? "" : "hidden"} text-2xl`}>{emoji} {titleText}</h2>
       {messages.length === 0 ? emptyStateComponent : ""}
@@ -153,5 +157,6 @@ export function ChatWindow(props: {
       </form>
       <ToastContainer/>
     </div>
+    </BackgroundGradient>
   );
 }

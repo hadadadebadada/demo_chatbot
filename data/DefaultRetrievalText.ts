@@ -1,540 +1,114 @@
-export default `# QA and Chat over Documents
+export default `
+Die Grundrechte
+Nichtamtliches Inhaltsverzeichnis
+Art 1 
+(1) Die Würde des Menschen ist unantastbar. Sie zu achten und zu schützen ist Verpflichtung aller staatlichen Gewalt.
+(2) Das Deutsche Volk bekennt sich darum zu unverletzlichen und unveräußerlichen Menschenrechten als Grundlage jeder menschlichen Gemeinschaft, des Friedens und der Gerechtigkeit in der Welt.
+(3) Die nachfolgenden Grundrechte binden Gesetzgebung, vollziehende Gewalt und Rechtsprechung als unmittelbar geltendes Recht.
+Nichtamtliches Inhaltsverzeichnis
+Art 2 
+(1) Jeder hat das Recht auf die freie Entfaltung seiner Persönlichkeit, soweit er nicht die Rechte anderer verletzt und nicht gegen die verfassungsmäßige Ordnung oder das Sittengesetz verstößt.
+(2) Jeder hat das Recht auf Leben und körperliche Unversehrtheit. Die Freiheit der Person ist unverletzlich. In diese Rechte darf nur auf Grund eines Gesetzes eingegriffen werden.
+Nichtamtliches Inhaltsverzeichnis
+Art 3 
+(1) Alle Menschen sind vor dem Gesetz gleich.
+(2) Männer und Frauen sind gleichberechtigt. Der Staat fördert die tatsächliche Durchsetzung der Gleichberechtigung von Frauen und Männern und wirkt auf die Beseitigung bestehender Nachteile hin.
+(3) Niemand darf wegen seines Geschlechtes, seiner Abstammung, seiner Rasse, seiner Sprache, seiner Heimat und Herkunft, seines Glaubens, seiner religiösen oder politischen Anschauungen benachteiligt oder bevorzugt werden. Niemand darf wegen seiner Behinderung benachteiligt werden.
+Nichtamtliches Inhaltsverzeichnis
+Art 4 
+(1) Die Freiheit des Glaubens, des Gewissens und die Freiheit des religiösen und weltanschaulichen Bekenntnisses sind unverletzlich.
+(2) Die ungestörte Religionsausübung wird gewährleistet.
+(3) Niemand darf gegen sein Gewissen zum Kriegsdienst mit der Waffe gezwungen werden. Das Nähere regelt ein Bundesgesetz.
+Nichtamtliches Inhaltsverzeichnis
+Art 5 
+(1) Jeder hat das Recht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten und sich aus allgemein zugänglichen Quellen ungehindert zu unterrichten. Die Pressefreiheit und die Freiheit der Berichterstattung durch Rundfunk und Film werden gewährleistet. Eine Zensur findet nicht statt.
+(2) Diese Rechte finden ihre Schranken in den Vorschriften der allgemeinen Gesetze, den gesetzlichen Bestimmungen zum Schutze der Jugend und in dem Recht der persönlichen Ehre.
+(3) Kunst und Wissenschaft, Forschung und Lehre sind frei. Die Freiheit der Lehre entbindet nicht von der Treue zur Verfassung.
+Nichtamtliches Inhaltsverzeichnis
+Art 6 
+(1) Ehe und Familie stehen unter dem besonderen Schutze der staatlichen Ordnung.
+(2) Pflege und Erziehung der Kinder sind das natürliche Recht der Eltern und die zuvörderst ihnen obliegende Pflicht. Über ihre Betätigung wacht die staatliche Gemeinschaft.
+(3) Gegen den Willen der Erziehungsberechtigten dürfen Kinder nur auf Grund eines Gesetzes von der Familie getrennt werden, wenn die Erziehungsberechtigten versagen oder wenn die Kinder aus anderen Gründen zu verwahrlosen drohen.
+(4) Jede Mutter hat Anspruch auf den Schutz und die Fürsorge der Gemeinschaft.
+(5) Den unehelichen Kindern sind durch die Gesetzgebung die gleichen Bedingungen für ihre leibliche und seelische Entwicklung und ihre Stellung in der Gesellschaft zu schaffen wie den ehelichen Kindern.
+Nichtamtliches Inhaltsverzeichnis
+Art 7 
+(1) Das gesamte Schulwesen steht unter der Aufsicht des Staates.
+(2) Die Erziehungsberechtigten haben das Recht, über die Teilnahme des Kindes am Religionsunterricht zu bestimmen.
+(3) Der Religionsunterricht ist in den öffentlichen Schulen mit Ausnahme der bekenntnisfreien Schulen ordentliches Lehrfach. Unbeschadet des staatlichen Aufsichtsrechtes wird der Religionsunterricht in Übereinstimmung mit den Grundsätzen der Religionsgemeinschaften erteilt. Kein Lehrer darf gegen seinen Willen verpflichtet werden, Religionsunterricht zu erteilen.
+(4) Das Recht zur Errichtung von privaten Schulen wird gewährleistet. Private Schulen als Ersatz für öffentliche Schulen bedürfen der Genehmigung des Staates und unterstehen den Landesgesetzen. Die Genehmigung ist zu erteilen, wenn die privaten Schulen in ihren Lehrzielen und Einrichtungen sowie in der wissenschaftlichen Ausbildung ihrer Lehrkräfte nicht hinter den öffentlichen Schulen zurückstehen und eine Sonderung der Schüler nach den Besitzverhältnissen der Eltern nicht gefördert wird. Die Genehmigung ist zu versagen, wenn die wirtschaftliche und rechtliche Stellung der Lehrkräfte nicht genügend gesichert ist.
+(5) Eine private Volksschule ist nur zuzulassen, wenn die Unterrichtsverwaltung ein besonderes pädagogisches Interesse anerkennt oder, auf Antrag von Erziehungsberechtigten, wenn sie als Gemeinschaftsschule, als Bekenntnis- oder Weltanschauungsschule errichtet werden soll und eine öffentliche Volksschule dieser Art in der Gemeinde nicht besteht.
+(6) Vorschulen bleiben aufgehoben.
+Nichtamtliches Inhaltsverzeichnis
+Art 8 
+(1) Alle Deutschen haben das Recht, sich ohne Anmeldung oder Erlaubnis friedlich und ohne Waffen zu versammeln.
+(2) Für Versammlungen unter freiem Himmel kann dieses Recht durch Gesetz oder auf Grund eines Gesetzes beschränkt werden.
+Nichtamtliches Inhaltsverzeichnis
+Art 9 
+(1) Alle Deutschen haben das Recht, Vereine und Gesellschaften zu bilden.
+(2) Vereinigungen, deren Zwecke oder deren Tätigkeit den Strafgesetzen zuwiderlaufen oder die sich gegen die verfassungsmäßige Ordnung oder gegen den Gedanken der Völkerverständigung richten, sind verboten.
+(3) Das Recht, zur Wahrung und Förderung der Arbeits- und Wirtschaftsbedingungen Vereinigungen zu bilden, ist für jedermann und für alle Berufe gewährleistet. Abreden, die dieses Recht einschränken oder zu behindern suchen, sind nichtig, hierauf gerichtete Maßnahmen sind rechtswidrig. Maßnahmen nach den Artikeln 12a, 35 Abs. 2 und 3, Artikel 87a Abs. 4 und Artikel 91 dürfen sich nicht gegen Arbeitskämpfe richten, die zur Wahrung und Förderung der Arbeits- und Wirtschaftsbedingungen von Vereinigungen im Sinne des Satzes 1 geführt werden.
+Nichtamtliches Inhaltsverzeichnis
+Art 10 
+(1) Das Briefgeheimnis sowie das Post- und Fernmeldegeheimnis sind unverletzlich.
+(2) Beschränkungen dürfen nur auf Grund eines Gesetzes angeordnet werden. Dient die Beschränkung dem Schutze der freiheitlichen demokratischen Grundordnung oder des Bestandes oder der Sicherung des Bundes oder eines Landes, so kann das Gesetz bestimmen, daß sie dem Betroffenen nicht mitgeteilt wird und daß an die Stelle des Rechtsweges die Nachprüfung durch von der Volksvertretung bestellte Organe und Hilfsorgane tritt.
+Nichtamtliches Inhaltsverzeichnis
+Art 11 
+(1) Alle Deutschen genießen Freizügigkeit im ganzen Bundesgebiet.
+(2) Dieses Recht darf nur durch Gesetz oder auf Grund eines Gesetzes und nur für die Fälle eingeschränkt werden, in denen eine ausreichende Lebensgrundlage nicht vorhanden ist und der Allgemeinheit daraus besondere Lasten entstehen würden oder in denen es zur Abwehr einer drohenden Gefahr für den Bestand oder die freiheitliche demokratische Grundordnung des Bundes oder eines Landes, zur Bekämpfung von Seuchengefahr, Naturkatastrophen oder besonders schweren Unglücksfällen, zum Schutze der Jugend vor Verwahrlosung oder um strafbaren Handlungen vorzubeugen, erforderlich ist.
+Nichtamtliches Inhaltsverzeichnis
+Art 12 
+(1) Alle Deutschen haben das Recht, Beruf, Arbeitsplatz und Ausbildungsstätte frei zu wählen. Die Berufsausübung kann durch Gesetz oder auf Grund eines Gesetzes geregelt werden.
+(2) Niemand darf zu einer bestimmten Arbeit gezwungen werden, außer im Rahmen einer herkömmlichen allgemeinen, für alle gleichen öffentlichen Dienstleistungspflicht.
+(3) Zwangsarbeit ist nur bei einer gerichtlich angeordneten Freiheitsentziehung zulässig.
+Nichtamtliches Inhaltsverzeichnis
+Art 12a 
+(1) Männer können vom vollendeten achtzehnten Lebensjahr an zum Dienst in den Streitkräften, im Bundesgrenzschutz oder in einem Zivilschutzverband verpflichtet werden.
+(2) Wer aus Gewissensgründen den Kriegsdienst mit der Waffe verweigert, kann zu einem Ersatzdienst verpflichtet werden. Die Dauer des Ersatzdienstes darf die Dauer des Wehrdienstes nicht übersteigen. Das Nähere regelt ein Gesetz, das die Freiheit der Gewissensentscheidung nicht beeinträchtigen darf und auch eine Möglichkeit des Ersatzdienstes vorsehen muß, die in keinem Zusammenhang mit den Verbänden der Streitkräfte und des Bundesgrenzschutzes steht.
+(3) Wehrpflichtige, die nicht zu einem Dienst nach Absatz 1 oder 2 herangezogen sind, können im Verteidigungsfalle durch Gesetz oder auf Grund eines Gesetzes zu zivilen Dienstleistungen für Zwecke der Verteidigung einschließlich des Schutzes der Zivilbevölkerung in Arbeitsverhältnisse verpflichtet werden; Verpflichtungen in öffentlich-rechtliche Dienstverhältnisse sind nur zur Wahrnehmung polizeilicher Aufgaben oder solcher hoheitlichen Aufgaben der öffentlichen Verwaltung, die nur in einem öffentlich-rechtlichen Dienstverhältnis erfüllt werden können, zulässig. Arbeitsverhältnisse nach Satz 1 können bei den Streitkräften, im Bereich ihrer Versorgung sowie bei der öffentlichen Verwaltung begründet werden; Verpflichtungen in Arbeitsverhältnisse im Bereiche der Versorgung der Zivilbevölkerung sind nur zulässig, um ihren lebensnotwendigen Bedarf zu decken oder ihren Schutz sicherzustellen.
+(4) Kann im Verteidigungsfalle der Bedarf an zivilen Dienstleistungen im zivilen Sanitäts- und Heilwesen sowie in der ortsfesten militärischen Lazarettorganisation nicht auf freiwilliger Grundlage gedeckt werden, so können Frauen vom vollendeten achtzehnten bis zum vollendeten fünfundfünfzigsten Lebensjahr durch Gesetz oder auf Grund eines Gesetzes zu derartigen Dienstleistungen herangezogen werden. Sie dürfen auf keinen Fall zum Dienst mit der Waffe verpflichtet werden.
+(5) Für die Zeit vor dem Verteidigungsfalle können Verpflichtungen nach Absatz 3 nur nach Maßgabe des Artikels 80a Abs. 1 begründet werden. Zur Vorbereitung auf Dienstleistungen nach Absatz 3, für die besondere Kenntnisse oder Fertigkeiten erforderlich sind, kann durch Gesetz oder auf Grund eines Gesetzes die Teilnahme an Ausbildungsveranstaltungen zur Pflicht gemacht werden. Satz 1 findet insoweit keine Anwendung.
+(6) Kann im Verteidigungsfalle der Bedarf an Arbeitskräften für die in Absatz 3 Satz 2 genannten Bereiche auf freiwilliger Grundlage nicht gedeckt werden, so kann zur Sicherung dieses Bedarfs die Freiheit der Deutschen, die Ausübung eines Berufs oder den Arbeitsplatz aufzugeben, durch Gesetz oder auf Grund eines Gesetzes eingeschränkt werden. Vor Eintritt des Verteidigungsfalles gilt Absatz 5 Satz 1 entsprechend.
+Nichtamtliches Inhaltsverzeichnis
+Art 13 
+(1) Die Wohnung ist unverletzlich.
+(2) Durchsuchungen dürfen nur durch den Richter, bei Gefahr im Verzuge auch durch die in den Gesetzen vorgesehenen anderen Organe angeordnet und nur in der dort vorgeschriebenen Form durchgeführt werden.
+(3) Begründen bestimmte Tatsachen den Verdacht, daß jemand eine durch Gesetz einzeln bestimmte besonders schwere Straftat begangen hat, so dürfen zur Verfolgung der Tat auf Grund richterlicher Anordnung technische Mittel zur akustischen Überwachung von Wohnungen, in denen der Beschuldigte sich vermutlich aufhält, eingesetzt werden, wenn die Erforschung des Sachverhalts auf andere Weise unverhältnismäßig erschwert oder aussichtslos wäre. Die Maßnahme ist zu befristen. Die Anordnung erfolgt durch einen mit drei Richtern besetzten Spruchkörper. Bei Gefahr im Verzuge kann sie auch durch einen einzelnen Richter getroffen werden.
+(4) Zur Abwehr dringender Gefahren für die öffentliche Sicherheit, insbesondere einer gemeinen Gefahr oder einer Lebensgefahr, dürfen technische Mittel zur Überwachung von Wohnungen nur auf Grund richterlicher Anordnung eingesetzt werden. Bei Gefahr im Verzuge kann die Maßnahme auch durch eine andere gesetzlich bestimmte Stelle angeordnet werden; eine richterliche Entscheidung ist unverzüglich nachzuholen.
+(5) Sind technische Mittel ausschließlich zum Schutze der bei einem Einsatz in Wohnungen tätigen Personen vorgesehen, kann die Maßnahme durch eine gesetzlich bestimmte Stelle angeordnet werden. Eine anderweitige Verwertung der hierbei erlangten Erkenntnisse ist nur zum Zwecke der Strafverfolgung oder der Gefahrenabwehr und nur zulässig, wenn zuvor die Rechtmäßigkeit der Maßnahme richterlich festgestellt ist; bei Gefahr im Verzuge ist die richterliche Entscheidung unverzüglich nachzuholen.
+(6) Die Bundesregierung unterrichtet den Bundestag jährlich über den nach Absatz 3 sowie über den im Zuständigkeitsbereich des Bundes nach Absatz 4 und, soweit richterlich überprüfungsbedürftig, nach Absatz 5 erfolgten Einsatz technischer Mittel. Ein vom Bundestag gewähltes Gremium übt auf der Grundlage dieses Berichts die parlamentarische Kontrolle aus. Die Länder gewährleisten eine gleichwertige parlamentarische Kontrolle.
+(7) Eingriffe und Beschränkungen dürfen im übrigen nur zur Abwehr einer gemeinen Gefahr oder einer Lebensgefahr für einzelne Personen, auf Grund eines Gesetzes auch zur Verhütung dringender Gefahren für die öffentliche Sicherheit und Ordnung, insbesondere zur Behebung der Raumnot, zur Bekämpfung von Seuchengefahr oder zum Schutze gefährdeter Jugendlicher vorgenommen werden.
+Fußnote
+Art. 13 Abs. 3: Eingef. durch Art. 1 Nr. 1 G v. 26.3.1998 I 610 mWv 1.4.1998; mit GG Art. 79 Abs. 3 vereinbar gem. BVerfGE v. 3.3.2004 (1 BvR 2378/98, 1 BvR 1084/99)
+Nichtamtliches Inhaltsverzeichnis
+Art 14 
+(1) Das Eigentum und das Erbrecht werden gewährleistet. Inhalt und Schranken werden durch die Gesetze bestimmt.
+(2) Eigentum verpflichtet. Sein Gebrauch soll zugleich dem Wohle der Allgemeinheit dienen.
+(3) Eine Enteignung ist nur zum Wohle der Allgemeinheit zulässig. Sie darf nur durch Gesetz oder auf Grund eines Gesetzes erfolgen, das Art und Ausmaß der Entschädigung regelt. Die Entschädigung ist unter gerechter Abwägung der Interessen der Allgemeinheit und der Beteiligten zu bestimmen. Wegen der Höhe der Entschädigung steht im Streitfalle der Rechtsweg vor den ordentlichen Gerichten offen.
+Nichtamtliches Inhaltsverzeichnis
+Art 15 
+Grund und Boden, Naturschätze und Produktionsmittel können zum Zwecke der Vergesellschaftung durch ein Gesetz, das Art und Ausmaß der Entschädigung regelt, in Gemeineigentum oder in andere Formen der Gemeinwirtschaft überführt werden. Für die Entschädigung gilt Artikel 14 Abs. 3 Satz 3 und 4 entsprechend.
+Nichtamtliches Inhaltsverzeichnis
+Art 16 
+(1) Die deutsche Staatsangehörigkeit darf nicht entzogen werden. Der Verlust der Staatsangehörigkeit darf nur auf Grund eines Gesetzes und gegen den Willen des Betroffenen nur dann eintreten, wenn der Betroffene dadurch nicht staatenlos wird.
+(2) Kein Deutscher darf an das Ausland ausgeliefert werden. Durch Gesetz kann eine abweichende Regelung für Auslieferungen an einen Mitgliedstaat der Europäischen Union oder an einen internationalen Gerichtshof getroffen werden, soweit rechtsstaatliche Grundsätze gewahrt sind.
+Nichtamtliches Inhaltsverzeichnis
+Art 16a 
+(1) Politisch Verfolgte genießen Asylrecht.
+(2) Auf Absatz 1 kann sich nicht berufen, wer aus einem Mitgliedstaat der Europäischen Gemeinschaften oder aus einem anderen Drittstaat einreist, in dem die Anwendung des Abkommens über die Rechtsstellung der Flüchtlinge und der Konvention zum Schutze der Menschenrechte und Grundfreiheiten sichergestellt ist. Die Staaten außerhalb der Europäischen Gemeinschaften, auf die die Voraussetzungen des Satzes 1 zutreffen, werden durch Gesetz, das der Zustimmung des Bundesrates bedarf, bestimmt. In den Fällen des Satzes 1 können aufenthaltsbeendende Maßnahmen unabhängig von einem hiergegen eingelegten Rechtsbehelf vollzogen werden.
+(3) Durch Gesetz, das der Zustimmung des Bundesrates bedarf, können Staaten bestimmt werden, bei denen auf Grund der Rechtslage, der Rechtsanwendung und der allgemeinen politischen Verhältnisse gewährleistet erscheint, daß dort weder politische Verfolgung noch unmenschliche oder erniedrigende Bestrafung oder Behandlung stattfindet. Es wird vermutet, daß ein Ausländer aus einem solchen Staat nicht verfolgt wird, solange er nicht Tatsachen vorträgt, die die Annahme begründen, daß er entgegen dieser Vermutung politisch verfolgt wird.
+(4) Die Vollziehung aufenthaltsbeendender Maßnahmen wird in den Fällen des Absatzes 3 und in anderen Fällen, die offensichtlich unbegründet sind oder als offensichtlich unbegründet gelten, durch das Gericht nur ausgesetzt, wenn ernstliche Zweifel an der Rechtmäßigkeit der Maßnahme bestehen; der Prüfungsumfang kann eingeschränkt werden und verspätetes Vorbringen unberücksichtigt bleiben. Das Nähere ist durch Gesetz zu bestimmen.
+(5) Die Absätze 1 bis 4 stehen völkerrechtlichen Verträgen von Mitgliedstaaten der Europäischen Gemeinschaften untereinander und mit dritten Staaten nicht entgegen, die unter Beachtung der Verpflichtungen aus dem Abkommen über die Rechtsstellung der Flüchtlinge und der Konvention zum Schutze der Menschenrechte und Grundfreiheiten, deren Anwendung in den Vertragsstaaten sichergestellt sein muß, Zuständigkeitsregelungen für die Prüfung von Asylbegehren einschließlich der gegenseitigen Anerkennung von Asylentscheidungen treffen.
+Fußnote
+Art. 16a: Eingef. durch Art. 1 Nr. 2 G v. 28.6.1993 I 1002 mWv 30.6.1993; mit Art. 79 Abs. 3 GG (100-1) vereinbar gem. BVerfGE v. 14.5.1996 I 952 (2 BvR 1938/93, 2 BvR 2315/93)
+Nichtamtliches Inhaltsverzeichnis
+Art 17 
+Jedermann hat das Recht, sich einzeln oder in Gemeinschaft mit anderen schriftlich mit Bitten oder Beschwerden an die zuständigen Stellen und an die Volksvertretung zu wenden.
+Nichtamtliches Inhaltsverzeichnis
+Art 17a 
+(1) Gesetze über Wehrdienst und Ersatzdienst können bestimmen, daß für die Angehörigen der Streitkräfte und des Ersatzdienstes während der Zeit des Wehr- oder Ersatzdienstes das Grundrecht, seine Meinung in Wort, Schrift und Bild frei zu äußern und zu verbreiten (Artikel 5 Abs. 1 Satz 1 erster Halbsatz), das Grundrecht der Versammlungsfreiheit (Artikel 8) und das Petitionsrecht (Artikel 17), soweit es das Recht gewährt, Bitten oder Beschwerden in Gemeinschaft mit anderen vorzubringen, eingeschränkt werden.
+(2) Gesetze, die der Verteidigung einschließlich des Schutzes der Zivilbevölkerung dienen, können bestimmen, daß die Grundrechte der Freizügigkeit (Artikel 11) und der Unverletzlichkeit der Wohnung (Artikel 13) eingeschränkt werden.
+Nichtamtliches Inhaltsverzeichnis
 
-Chat and Question-Answering (QA) over \`data\` are popular LLM use-cases.
 
-\`data\` can include many things, including:
-
-* \`Unstructured data\` (e.g., PDFs)
-* \`Structured data\` (e.g., SQL)
-* \`Code\` (e.g., Python)
-
-Below we will review Chat and QA on \`Unstructured data\`.
-
-![intro.png](/img/qa_intro.png)
-
-\`Unstructured data\` can be loaded from many sources.
-
-Check out the [document loader integrations here](/docs/modules/data_connection/document_loaders/) to browse the set of supported loaders.
-
-Each loader returns data as a LangChain \`Document\`.
-
-\`Documents\` are turned into a Chat or QA app following the general steps below:
-
-* \`Splitting\`: [Text splitters](/docs/modules/data_connection/document_transformers/) break \`Documents\` into splits of specified size
-* \`Storage\`: Storage (e.g., often a [vectorstore](/docs/modules/data_connection/vectorstores/)) will house [and often embed](https://www.pinecone.io/learn/vector-embeddings/) the splits
-* \`Retrieval\`: The app retrieves splits from storage (e.g., often [with similar embeddings](https://www.pinecone.io/learn/k-nearest-neighbor/) to the input question)
-* \`Output\`: An [LLM](/docs/modules/model_io/models/llms/) produces an answer using a prompt that includes the question and the retrieved splits
-
-![flow.jpeg](/img/qa_flow.jpeg)
-
-## Quickstart
-
-Let's load this [blog post](https://lilianweng.github.io/posts/2023-06-23-agent/) on agents as an example \`Document\`.
-
-We'll have a QA app in a few lines of code.
-
-First, set environment variables and install packages required for the guide:
-
-\`\`\`shell
-> yarn add cheerio
-# Or load env vars in your preferred way:
-> export OPENAI_API_KEY="..."
-\`\`\`
-
-## 1. Loading, Splitting, Storage
-
-### 1.1 Getting started
-
-Specify a \`Document\` loader.
-
-\`\`\`typescript
-// Document loader
-import { CheerioWebBaseLoader } from "langchain/document_loaders/web/cheerio";
-
-const loader = new CheerioWebBaseLoader(
-  "https://lilianweng.github.io/posts/2023-06-23-agent/"
-);
-const data = await loader.load();
-\`\`\`
-
-Split the \`Document\` into chunks for embedding and vector storage.
-
-
-\`\`\`typescript
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
-
-const textSplitter = new RecursiveCharacterTextSplitter({
-  chunkSize: 500,
-  chunkOverlap: 0,
-});
-
-const splitDocs = await textSplitter.splitDocuments(data);
-\`\`\`
-
-Embed and store the splits in a vector database (for demo purposes we use an unoptimized, in-memory example but you can [browse integrations here](/docs/modules/data_connection/vectorstores/integrations/)):
-
-
-\`\`\`typescript
-import { OpenAIEmbeddings } from "langchain/embeddings/openai";
-import { MemoryVectorStore } from "langchain/vectorstores/memory";
-
-const embeddings = new OpenAIEmbeddings();
-
-const vectorStore = await MemoryVectorStore.fromDocuments(splitDocs, embeddings);
-\`\`\`
-
-Here are the three pieces together:
-
-![lc.png](/img/qa_data_load.png)
-
-### 1.2 Going Deeper
-
-#### 1.2.1 Integrations
-
-\`Document Loaders\`
-
-* Browse document loader integrations [here](/docs/modules/data_connection/document_loaders/).
-
-* See further documentation on loaders [here](/docs/modules/data_connection/document_loaders/).
-
-\`Document Transformers\`
-
-* All can ingest loaded \`Documents\` and process them (e.g., split).
-
-* See further documentation on transformers [here](/docs/modules/data_connection/document_transformers/).
-
-\`Vectorstores\`
-
-* Browse vectorstore integrations [here](/docs/modules/data_connection/vectorstores/integrations/).
-
-* See further documentation on vectorstores [here](/docs/modules/data_connection/vectorstores/).
-
-## 2. Retrieval
-
-### 2.1 Getting started
-
-Retrieve [relevant splits](https://www.pinecone.io/learn/what-is-similarity-search/) for any question using \`similarity_search\`.
-
-
-\`\`\`typescript
-const relevantDocs = await vectorStore.similaritySearch("What is task decomposition?");
-
-console.log(relevantDocs.length);
-
-// 4
-\`\`\`
-
-
-### 2.2 Going Deeper
-
-#### 2.2.1 Retrieval
-
-Vectorstores are commonly used for retrieval.
-
-But, they are not the only option.
-
-For example, SVMs (see thread [here](https://twitter.com/karpathy/status/1647025230546886658?s=20)) can also be used.
-
-LangChain [has many retrievers and retrieval methods](/docs/modules/data_connection/retrievers/) including, but not limited to, vectorstores.
-
-All retrievers implement some common methods, such as \`getRelevantDocuments()\`.
-
-
-## 3. QA
-
-### 3.1 Getting started
-
-Distill the retrieved documents into an answer using an LLM (e.g., \`gpt-3.5-turbo\`) with \`RetrievalQA\` chain.
-
-
-\`\`\`typescript
-import { RetrievalQAChain } from "langchain/chains";
-import { ChatOpenAI } from "langchain/chat_models/openai";
-
-const model = new ChatOpenAI({ modelName: "gpt-3.5-turbo" });
-const chain = RetrievalQAChain.fromLLM(model, vectorstore.asRetriever());
-
-const response = await chain.call({
-  query: "What is task decomposition?"
-});
-console.log(response);
-
-/*
-  {
-    text: 'Task decomposition refers to the process of breaking down a larger task into smaller, more manageable subgoals. By decomposing a task, it becomes easier for an agent or system to handle complex tasks efficiently. Task decomposition can be done through various methods such as using prompting or task-specific instructions, or through human inputs. It helps in planning and organizing the steps required to complete a task effectively.'
-  }
-*/
-\`\`\`
-
-### 3.2 Going Deeper
-
-#### 3.2.1 Integrations
-
-\`LLMs\`
-
-* Browse LLM integrations and further documentation [here](/docs/modules/model_io/models/).
-
-#### 3.2.2 Customizing the prompt
-
-The prompt in \`RetrievalQA\` chain can be customized as follows.
-
-
-\`\`\`typescript
-import { RetrievalQAChain } from "langchain/chains";
-import { ChatOpenAI } from "langchain/chat_models/openai";
-import { PromptTemplate } from "langchain/prompts";
-
-const model = new ChatOpenAI({ modelName: "gpt-3.5-turbo" });
-
-const template = \`Use the following pieces of context to answer the question at the end.
-If you don't know the answer, just say that you don't know, don't try to make up an answer.
-Use three sentences maximum and keep the answer as concise as possible.
-Always say "thanks for asking!" at the end of the answer.
-{context}
-Question: {question}
-Helpful Answer:\`;
-
-const chain = RetrievalQAChain.fromLLM(model, vectorstore.asRetriever(), {
-  prompt: PromptTemplate.fromTemplate(template),
-});
-
-const response = await chain.call({
-  query: "What is task decomposition?"
-});
-
-console.log(response);
-
-/*
-  {
-    text: 'Task decomposition is the process of breaking down a large task into smaller, more manageable subgoals. This allows for efficient handling of complex tasks and aids in planning and organizing the steps needed to achieve the overall goal. Thanks for asking!'
-  }
-*/
-\`\`\`
-
-
-#### 3.2.3 Returning source documents
-
-The full set of retrieved documents used for answer distillation can be returned using \`return_source_documents=True\`.
-
-
-\`\`\`typescript
-import { RetrievalQAChain } from "langchain/chains";
-import { ChatOpenAI } from "langchain/chat_models/openai";
-
-const model = new ChatOpenAI({ modelName: "gpt-3.5-turbo" });
-
-const chain = RetrievalQAChain.fromLLM(model, vectorstore.asRetriever(), {
-  returnSourceDocuments: true
-});
-
-const response = await chain.call({
-  query: "What is task decomposition?"
-});
-
-console.log(response.sourceDocuments[0]);
-
-/*
-Document {
-  pageContent: 'Task decomposition can be done (1) by LLM with simple prompting like "Steps for XYZ.\\n1.", "What are the subgoals for achieving XYZ?", (2) by using task-specific instructions; e.g. "Write a story outline." for writing a novel, or (3) with human inputs.',
-  metadata: [Object]
-}
-*/
-\`\`\`
-
-
-#### 3.2.4 Customizing retrieved docs in the LLM prompt
-
-Retrieved documents can be fed to an LLM for answer distillation in a few different ways.
-
-\`stuff\`, \`refine\`, and \`map-reduce\` chains for passing documents to an LLM prompt are well summarized [here](/docs/modules/chains/document/).
-
-\`stuff\` is commonly used because it simply "stuffs" all retrieved documents into the prompt.
-
-The [loadQAChain](/docs/modules/chains/document/) methods are easy ways to pass documents to an LLM using these various approaches.
-
-
-\`\`\`typescript
-import { loadQAStuffChain } from "langchain/chains";
-
-const stuffChain = loadQAStuffChain(model);
-
-const stuffResult = await stuffChain.call({
-  input_documents: relevantDocs,
-  question: "What is task decomposition
-});
-
-console.log(stuffResult);
-/*
-{
-  text: 'Task decomposition is the process of breaking down a large task into smaller, more manageable subgoals or steps. This allows for efficient handling of complex tasks by focusing on one subgoal at a time. Task decomposition can be done through various methods such as using simple prompting, task-specific instructions, or human inputs.'
-}
-*/
-\`\`\`
-
-## 4. Chat
-
-### 4.1 Getting started
-
-To keep chat history, we use a variant of the previous chain called a \`ConversationalRetrievalQAChain\`.
-First, specify a \`Memory buffer\` to track the conversation inputs / outputs.
-
-
-\`\`\`typescript
-import { ConversationalRetrievalQAChain } from "langchain/chains";
-import { BufferMemory } from "langchain/memory";
-import { ChatOpenAI } from "langchain/chat_models/openai";
-
-const memory = new BufferMemory({
-  memoryKey: "chat_history",
-  returnMessages: true,
-});
-\`\`\`
-
-Next, we initialize and call the chain:
-
-\`\`\`typescript
-const model = new ChatOpenAI({ modelName: "gpt-3.5-turbo" });
-const chain = ConversationalRetrievalQAChain.fromLLM(model, vectorstore.asRetriever(), {
-  memory
-});
-
-const result = await chain.call({
-  question: "What are some of the main ideas in self-reflection?"
-});
-console.log(result);
-
-/*
-{
-  text: 'Some main ideas in self-reflection include:\n' +
-    '\n' +
-    '1. Iterative Improvement: Self-reflection allows autonomous agents to improve by continuously refining past action decisions and correcting mistakes.\n' +
-    '\n' +
-    '2. Trial and Error: Self-reflection plays a crucial role in real-world tasks where trial and error are inevitable. It helps agents learn from failed trajectories and make adjustments for future actions.\n' +
-    '\n' +
-    '3. Constructive Criticism: Agents engage in constructive self-criticism of their big-picture behavior to identify areas for improvement.\n' +
-    '\n' +
-    '4. Decision and Strategy Refinement: Reflection on past decisions and strategies enables agents to refine their approach and make more informed choices.\n' +
-    '\n' +
-    '5. Efficiency and Optimization: Self-reflection encourages agents to be smart and efficient in their actions, aiming to complete tasks in the least number of steps.\n' +
-    '\n' +
-    'These ideas highlight the importance of self-reflection in enhancing performance and guiding future actions.'
-}
-*/
-\`\`\`
-
-
-The \`Memory buffer\` has context to resolve \`"it"\` ("self-reflection") in the below question.
-
-
-\`\`\`typescript
-const followupResult = await chain.call({
-  question: "How does the Reflexion paper handle it?"
-});
-console.log(followupResult);
-
-/*
-{
-  text: "The Reflexion paper introduces a framework that equips agents with dynamic memory and self-reflection capabilities to improve their reasoning skills. The approach involves showing the agent two-shot examples, where each example consists of a failed trajectory and an ideal reflection on how to guide future changes in the agent's plan. These reflections are then added to the agent's working memory as context for querying a language model. The agent uses this self-reflection information to make decisions on whether to start a new trial or continue with the current plan."
-}
-*/
-\`\`\`
-
-
-### 4.2 Going deeper
-
-The [documentation](/docs/modules/chains/popular/chat_vector_db) on \`ConversationalRetrievalQAChain\` offers a few extensions, such as streaming and source documents.
-
-
-# Conversational Retrieval Agents
-
-This is an agent specifically optimized for doing retrieval when necessary while holding a conversation and being able
-to answer questions based on previous dialogue in the conversation.
-
-To start, we will set up the retriever we want to use, then turn it into a retriever tool. Next, we will use the high-level constructor for this type of agent.
-Finally, we will walk through how to construct a conversational retrieval agent from components.
-
-## The Retriever
-
-To start, we need a retriever to use! The code here is mostly just example code. Feel free to use your own retriever and skip to the next section on creating a retriever tool.
-
-\`\`\`typescript
-import { FaissStore } from "langchain/vectorstores/faiss";
-import { OpenAIEmbeddings } from "langchain/embeddings/openai";
-import { TextLoader } from "langchain/document_loaders/fs/text";
-import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
-
-const loader = new TextLoader("state_of_the_union.txt");
-const docs = await loader.load();
-const splitter = new RecursiveCharacterTextSplitter({
-  chunkSize: 1000,
-  chunkOverlap: 0
-});
-
-const texts = await splitter.splitDocuments(docs);
-
-const vectorStore = await FaissStore.fromDocuments(texts, new OpenAIEmbeddings());
-
-const retriever = vectorStore.asRetriever();
-\`\`\`
-
-## Retriever Tool
-
-Now we need to create a tool for our retriever. The main things we need to pass in are a \`name\` for the retriever as well as a \`description\`. These will both be used by the language model, so they should be informative.
-
-\`\`\`typescript
-import { createRetrieverTool } from "langchain/agents/toolkits";
-
-const tool = createRetrieverTool(retriever, {
-  name: "search_state_of_union",
-  description: "Searches and returns documents regarding the state-of-the-union.",
-});
-\`\`\`
-
-## Agent Constructor
-
-Here, we will use the high level \`create_conversational_retrieval_agent\` API to construct the agent.
-Notice that beside the list of tools, the only thing we need to pass in is a language model to use.
-
-Under the hood, this agent is using the OpenAIFunctionsAgent, so we need to use an ChatOpenAI model.
-
-\`\`\`typescript
-import { createConversationalRetrievalAgent } from "langchain/agents/toolkits";
-import { ChatOpenAI } from "langchain/chat_models/openai";
-
-const model = new ChatOpenAI({
-  temperature: 0,
-});
-
-const executor = await createConversationalRetrievalAgent(model, [tool], {
-  verbose: true,
-});
-\`\`\`
-
-We can now try it out!
-
-\`\`\`typescript
-const result = await executor.call({
-  input: "Hi, I'm Bob!"
-});
-
-console.log(result);
-
-/*
-  {
-    output: 'Hello Bob! How can I assist you today?',
-    intermediateSteps: []
-  }
-*/
-
-const result2 = await executor.call({
-  input: "What's my name?"
-});
-
-console.log(result2);
-
-/*
-  { output: 'Your name is Bob.', intermediateSteps: [] }
-*/
-
-const result3 = await executor.call({
-  input: "What did the president say about Ketanji Brown Jackson in the most recent state of the union?"
-});
-
-console.log(result3);
-
-/*
-  {
-    output: "In the most recent state of the union, President Biden mentioned Ketanji Brown Jackson. He nominated her as a Circuit Court of Appeals judge and described her as one of the nation's top legal minds who will continue Justice Breyer's legacy of excellence. He mentioned that she has received a broad range of support, including from the Fraternal Order of Police and former judges appointed by Democrats and Republicans.",
-    intermediateSteps: [
-      {...}
-    ]
-  }
-*/
-
-const result4 = await executor.call({
-  input: "How long ago did he nominate her?"
-});
-
-console.log(result4);
-
-/*
-  {
-    output: 'President Biden nominated Ketanji Brown Jackson four days before the most recent state of the union address.',
-    intermediateSteps: []
-  }
-*/
-\`\`\`
-
-Note that for the final call, the agent used previously retrieved information to answer the query and did not need to call the tool again!
-
-Here's a trace showing how the agent fetches documents to answer the question with the retrieval tool:
-
-https://smith.langchain.com/public/1e2b1887-ca44-4210-913b-a69c1b8a8e7e/r
-
-## Creating from components
-
-What actually is going on underneath the hood? Let's take a look so we can understand how to modify things going forward.
-
-### Memory
-
-In this example, we want the agent to remember not only previous conversations, but also previous intermediate steps.
-For that, we can use \`OpenAIAgentTokenBufferMemory\`. Note that if you want to change whether the agent remembers intermediate steps,
-how the long the retained buffer is, or anything like that you should change this part.
-
-\`\`\`typescript
-import { OpenAIAgentTokenBufferMemory } from "langchain/agents/toolkits";
-
-const memory = new OpenAIAgentTokenBufferMemory({
-  llm: model,
-  memoryKey: "chat_history",
-  outputKey: "output"
-});
-\`\`\`
-
-You should make sure \`memoryKey\` is set to \`"chat_history"\` and \`outputKey\` is set to \`"output"\` for the OpenAI functions agent.
-This memory also has \`returnMessages\` set to \`true\` by default.
-
-You can also load messages from prior conversations into this memory by initializing it with a pre-loaded chat history:
-
-\`\`\`typescript
-import { ChatOpenAI } from "langchain/chat_models/openai";
-import { OpenAIAgentTokenBufferMemory } from "langchain/agents/toolkits";
-import { HumanMessage, AIMessage } from "langchain/schema";
-import { ChatMessageHistory } from "langchain/memory";
-
-const previousMessages = [
-  new HumanMessage("My name is Bob"),
-  new AIMessage("Nice to meet you, Bob!"),
-];
-
-const chatHistory = new ChatMessageHistory(previousMessages);
-
-const memory = new OpenAIAgentTokenBufferMemory({
-  llm: new ChatOpenAI({}),
-  memoryKey: "chat_history",
-  outputKey: "output",
-  chatHistory,
-});
-\`\`\`
-
-### Agent executor
-
-We can recreate the agent executor directly with the \`initializeAgentExecutorWithOptions\` method.
-This allows us to customize the agent's system message by passing in a \`prefix\` into \`agentArgs\`.
-Importantly, we must pass in \`return_intermediate_steps: true\` since we are recording that with our memory object.
-
-\`\`\`typescript
-import { initializeAgentExecutorWithOptions } from "langchain/agents";
-
-const executor = await initializeAgentExecutorWithOptions(tools, llm, {
-  agentType: "openai-functions",
-  memory,
-  returnIntermediateSteps: true,
-  agentArgs: {
-    prefix:
-      prefix ??
-      \`Do your best to answer the questions. Feel free to use any tools available to look up relevant information, only if necessary.\`,
-  },
-});
-\`\`\`
 `;

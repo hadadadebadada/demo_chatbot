@@ -2037,10 +2037,10 @@ frame-ticker@1:
   dependencies:
     simplesignal "^2.1.6"
 
-framer-motion@^11.0.14:
-  version "11.0.14"
-  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-11.0.14.tgz"
-  integrity sha512-RFjo2hB1MTW0EWsHQaXgVn0AEUDGxAs0ZL2vVjTTJJu3N7wFiLkmqTn5ysLjL+qKZ9jvfpKXDb9waN9AyLqk8g==
+framer-motion@^11.0.15:
+  version "11.0.15"
+  resolved "https://registry.npmjs.org/framer-motion/-/framer-motion-11.0.15.tgz"
+  integrity sha512-bQzPYHL66lO4SLoAHqWy5v1Pd4TDwYs8I16+ZlsoZjRn2MdUiygb8nyl9kcI/JjhcErSBq2XLaha4F5knn72ow==
   dependencies:
     tslib "^2.4.0"
 
@@ -3562,6 +3562,11 @@ simplesignal@^2.1.6:
   version "2.1.7"
   resolved "https://registry.npmjs.org/simplesignal/-/simplesignal-2.1.7.tgz"
   integrity sha512-PEo2qWpUke7IMhlqiBxrulIFvhJRLkl1ih52Rwa+bPjzhJepcd4GIjn2RiQmFSx3dQvsEAgF0/lXMwMN7vODaA==
+
+simplex-noise@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.npmjs.org/simplex-noise/-/simplex-noise-4.0.1.tgz"
+  integrity sha512-zl/+bdSqW7HJOQ0oDbxrNYaF4F5ik0i7M6YOYmEoIJNtg16NpvWaTTM1Y7oV/7T0jFljawLgYPS81Uu2rsfo1A==
 
 sirv@^1.0.7:
   version "1.0.19"

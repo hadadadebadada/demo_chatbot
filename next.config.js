@@ -11,4 +11,7 @@ module.exports = withBundleAnalyzer({
     // Ignores TypeScript errors during the build process
     ignoreBuildErrors: true,
   },
+  images: {
+    domains: ['assets.aceternity.com'],
+  },
 });
