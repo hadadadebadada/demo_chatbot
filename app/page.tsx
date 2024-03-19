@@ -1,18 +1,17 @@
 "use client";
 import { ChatWindow } from "@/components/ChatWindow";
-import { BackgroundGradient } from "/home/brate/Dev/langchain-nextjs-template/components/ui/background-gradient"
-import Image from "next/image";
+import { BackgroundGradient } from "@/components/ui/background-gradient"
 import React from "react";
 import {
   TextRevealCard,
   TextRevealCardDescription,
   TextRevealCardTitle,
-} from "/home/brate/Dev/langchain-nextjs-template/components/ui/text-reveal-card";
+} from "@/components/ui/text-reveal-card";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 
 
-const World = dynamic(() => import("/home/brate/Dev/langchain-nextjs-template/components/ui/globe").then((m) => m.World), {
+const World = dynamic(() => import("@/components/ui/globe").then((m) => m.World), {
   ssr: false,
 });
 
