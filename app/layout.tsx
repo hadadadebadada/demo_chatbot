@@ -5,16 +5,90 @@ import React from "react";
 import { motion } from "framer-motion";
 import dynamic from "next/dynamic";
 import { Navbar } from "@/components/Navbar";
+import AgentsPage from "@/app/agents/page"
+import RetrievalAgentsPage from "@/app/retrieval_agents/page"
 import {
   TextRevealCard,
   TextRevealCardDescription,
   TextRevealCardTitle,
 } from "@/components/ui/text-reveal-card";
 import { WavyBackground } from "@/components/ui/wavy-background";
-import  { useState } from "react";
+import { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "@/components/ui/navbar-menu";
 import { cn } from "@/utils/cn";
 import { EvervaultCard } from "@/components/ui/evervault-card";
+
+import Image from "next/image";
+import { Tabs } from "@/components/ui/tabs";
+
+
+const DummyContent = () => {
+  return (
+    <Image
+      src="https://assets.aceternity.com/demos/algochurn.webp"
+      alt="dummy image"
+      width="1000"
+      height="1000"
+      className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+    />
+  );
+};
+const tabs = [
+  {
+    title: "GoogleChat",
+    value: "product",
+    content: (
+      <div className="w-full overflow-hidden relative h-full">
+        <p>Google Chat</p>
+
+        <AgentsPage />
+      </div>
+    ),
+  },
+  {
+    title: "Knowledge Base",
+    value: "services",
+    content: (
+      <div className="w-full overflow-hidden relative h-full rouded">
+        <p>Knowledge Base Chat</p>
+        <RetrievalAgentsPage />
+      </div>
+    ),
+  }
+  // ,
+  // {
+  //   title: "Playground",
+  //   value: "playground",
+  //   content: (
+  //     <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+  //       <p>Playground tab</p>
+  //       <DummyContent />
+  //     </div>
+  //   ),
+  // },
+  // {
+  //   title: "Content",
+  //   value: "content",
+  //   content: (
+  //     <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+  //       <p>Content tab</p>
+  //       <DummyContent />
+  //     </div>
+  //   ),
+  // },
+  // {
+  //   title: "Random",
+  //   value: "random",
+  //   content: (
+  //     <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+  //       <p>Random tab</p>
+  //       <DummyContent />
+  //     </div>
+  //   ),
+  // },
+];
+
+
 
 function MainNavbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
@@ -469,122 +543,109 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="de">
       <head>
-        <title>LangChain + Next.js Template</title>
+        <title>Botschmiede Demo</title>
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <meta
           name="description"
-          content="Starter template showing how to use LangChain in Next.js projects. See source code and deploy your own at https://github.com/langchain-ai/langchain-nextjs-template!"
+          content="Botschmiede Demo verschiedene Chatbots"
         />
-        <meta property="og:title" content="LangChain + Next.js Template" />
+        <meta property="og:title" content="Botschmiede Demo verschiedene Chatbots" />
         <meta
           property="og:description"
-          content="Starter template showing how to use LangChain in Next.js projects. See source code and deploy your own at https://github.com/langchain-ai/langchain-nextjs-template!"
+          content="Botschmiede Demo verschiedene Chatbots"
         />
         <meta property="og:image" content="/images/og-image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="LangChain + Next.js Template" />
         <meta
           name="twitter:description"
-          content="Starter template showing how to use LangChain in Next.js projects. See source code and deploy your own at https://github.com/langchain-ai/langchain-nextjs-template!"
+          content="Botschmiede Demo verschiedene Chatbots!"
         />
         <meta name="twitter:image" content="/images/og-image.png" />
       </head>
-      <body className={publicSans.className}>
+      <body>
 
 
-        <div className="flex flex-col p-4 md:p-12 h-[100vh]">
+      <div className="flex flex-col p-4 md:p-12 h-[100vh] max-w-[100vw] overflow-x-hidden">
+    <div className="flex items-center justify-center bg-[#0E0E10] h-[40rem] rounded-2xl w-full">
+            <MainNavbar className="top-2" />
+
+ 
+            <WavyBackground className="max-w-4xl mx-auto pb-40">
+            
+              <div style={{ minWidth: "50vw" }}>
+                <EvervaultCard text="Ein Produkt der Botschmiede" />
+              </div>
+
+            </WavyBackground>
+            <TextRevealCard
+              text="benutzerdefinierte Chatbots"
+              revealText="von Botschmiede"
+            >
+              <TextRevealCardTitle>
+                Einbindung auf unbegrenzt vielen Websites
+              </TextRevealCardTitle>
+              <TextRevealCardDescription>
+                Mehrere Dateien hochladen
+              </TextRevealCardDescription>
+              <TextRevealCardTitle>
+                Quellcode wird mitgeliefert und ist beliebig anpassbar
+              </TextRevealCardTitle>
+              <TextRevealCardDescription>
+                Wir stellen einen Chatbot ganz nach Ihren Wünschen bereit
+              </TextRevealCardDescription>
+              <TextRevealCardTitle>
+                API oder On-Premise - Sie entscheiden
+              </TextRevealCardTitle>
+              <TextRevealCardDescription>
+                API: Tägliche Backups - 8GB Vektordatenbank - 100GB Datenspeicher
+              </TextRevealCardDescription>
+              <TextRevealCardDescription>
+                On-Premise: Unbegrenzte Vektordatenbank - Unbegrenzter Datenspeicher*/
+
+              </TextRevealCardDescription>
+            </TextRevealCard>
+          </div>
 
 
 
-     <div className="flex items-center justify-center bg-[#0E0E10] h-[40rem] rounded-2xl w-full">
-     <MainNavbar className="top-2" />
+          <div className="h-[20rem] md:h-[40rem] min-h-[95vh] [perspective:1000px] relative flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-40">
+            <Tabs tabs={tabs} />
+          </div>
 
 
-     {/* <div className="relative w-full flex items-center justify-center">
-      <MainNavbar className="top-2" />
-      <p className="text-black dark:text-white">
-        The Navbar will show on top of the page
-      </p>
-    </div> */}
 
-     <WavyBackground className="max-w-4xl mx-auto pb-40">
-     {/* <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-        Hero waves are cool
-      </p>
-      <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
-        Leverage the power of canvas to create a beautiful hero section
-      </p> */}
-
-      <div style={{minWidth:"50vw"}}>
-      <EvervaultCard text="Ein Produkt der Botschmiede" />
-
-      </div>
-
-    </WavyBackground>
-<TextRevealCard
-  text="benutzerdefinierte Chatbots"
-  revealText="von Botschmiede"
->
-  <TextRevealCardTitle>
-  Einbindung auf unbegrenzt vielen Websites
-  </TextRevealCardTitle>
-  <TextRevealCardDescription>
-  Mehrere Dateien hochladen
-  </TextRevealCardDescription>
-  <TextRevealCardTitle>
-  Quellcode wird mitgeliefert und ist beliebig anpassbar
-  </TextRevealCardTitle>
-  <TextRevealCardDescription>
-  Wir stellen einen Chatbot ganz nach Ihren Wünschen bereit
-  </TextRevealCardDescription>
-  <TextRevealCardTitle>
-  API oder On-Premise - Sie entscheiden
-  </TextRevealCardTitle>
-  <TextRevealCardDescription>
-API: Tägliche Backups - 8GB Vektordatenbank - 100GB Datenspeicher
-  </TextRevealCardDescription>
-  <TextRevealCardDescription>
-    On-Premise: Unbegrenzte Vektordatenbank - Unbegrenzter Datenspeicher
-    
-    </TextRevealCardDescription>
-</TextRevealCard>
-</div>
-
-
-<Navbar></Navbar>
-
-          {children}
-          <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-black bg-white relative w-full">
-      <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
-        <motion.div
-          initial={{
-            opacity: 0,
-            y: 20,
-          }}
-          animate={{
-            opacity: 1,
-            y: 0,
-          }}
-          transition={{
-            duration: 1,
-          }}
-          className="div"
-        >
-          <h2 className="text-center text-xl md:text-4xl font-bold text-black dark:text-white">
-            Weltweites Hosting - Sie entscheiden wo die Server stehen
-          </h2>
-          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-           Sie haben die volle Kontrolle über Datenfluss, Speicherort und Sicherheit
-          </p>
-        </motion.div>
-        <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
-        <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
-          <World data={sampleArcs} globeConfig={globeConfig} />;
-        </div>
-      </div>
-    </div>
+          <div className="flex flex-row items-center justify-center h-screen md:h-auto relative w-full">
+            <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+              <motion.div
+                initial={{
+                  opacity: 0,
+                  y: 20,
+                }}
+                animate={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                transition={{
+                  duration: 1,
+                }}
+                className="div"
+              >
+                <h2 className="text-center text-xl md:text-4xl font-bold text-white dark:text-white">
+                  Weltweites Hosting - Sie entscheiden wo die Server stehen
+                </h2>
+                <p className="text-center text-base md:text-lg font-normal text-neutral-200 dark:text-neutral-200 max-w-md mt-2 mx-auto">
+                  Sie haben die volle Kontrolle über Datenfluss, Speicherort und Sicherheit
+                </p>
+              </motion.div>
+              <div className="absolute w-full bottom-0 inset-x-0 h-40 pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
+              <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
+                <World data={sampleArcs} globeConfig={globeConfig} />;
+              </div>
+            </div>
+          </div>
         </div>
       </body>
     </html>
