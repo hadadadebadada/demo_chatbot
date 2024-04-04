@@ -608,21 +608,23 @@ export default function RootLayout({
         <meta name="twitter:image" content="/images/og-image.png" />
       </head>
       <body>
-      <MainNavbar className="absolute top-2 left-1/2 transform -translate-x-1/2" />
+      <MainNavbar className="hidden md:block absolute top-2 left-1/2 transform -translate-x-1/2" />
 
         <div  className="flex flex-col p-4 md:p-12 h-[100vh] max-w-[100vw] overflow-x-hidden">
 
-          <div id="product" className="flex items-center justify-center bg-[#0E0E10] h-[40rem] rounded-2xl w-full">
+        <div id="product" className="flex flex-col md:flex-row items-center justify-center bg-[#0E0E10] h-[40rem] rounded-2xl w-full">
      
 
 
             <WavyBackground className="max-w-4xl mx-auto pb-40 overflow-hidden">
 
-              <div style={{ minWidth: "50vw" }}>
+              <div >
                 <EvervaultCard text="Ein Produkt der Botschmiede" />
               </div>
 
             </WavyBackground>
+
+
             <TextRevealCard
               text="benutzerdefinierte Chatbots"
               revealText="Entdecken Sie Ihren Bot"
@@ -657,11 +659,11 @@ export default function RootLayout({
           <div id="demo" className="h-[20rem] md:h-[40rem] min-h-[95vh] [perspective:1000px] relative flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-40">
             <Tabs tabs={tabs} />
           </div>
+          
 
 
-
-          <div id="hosting" className="flex flex-row items-center justify-center h-screen md:h-auto relative w-full">
-            <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
+          <div id="hosting" className="flex flex-row items-center justify-center h-screen md:h-auto min-h-[500px] relative w-full">
+            <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] min-h-[550px] px-4">
               <motion.div
                 initial={{
                   opacity: 0,
@@ -683,17 +685,21 @@ export default function RootLayout({
                   Sie haben die volle Kontrolle über Datenfluss, Speicherort und Sicherheit
                 </p>
               </motion.div>
-              <div className="absolute w-full bottom-0 inset-x-0 h-40 pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
-              <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
+              <div className="absolute w-full bottom-0 inset-x-0 h-40 pointer-events-none select-none from-transparent sm:min-h-[500px] dark:to-black to-white z-40" />
+              <div className="absolute w-full -bottom-20 h-72 md:h-full min-h-[400px] min-w-[90vw] z-10 ">
                 <World data={sampleArcs} globeConfig={globeConfig} />;
               </div>
             </div>
           </div>
  
-          <Footer />       </div>
- 
 
 
+
+    
+          
+             </div>
+
+             <Footer />   
       </body>
     </html>
   );

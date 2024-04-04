@@ -35,6 +35,7 @@ export const EvervaultCard = ({
     className={cn(
       "p-0.5 bg-transparent aspect-square flex items-center justify-center w-full h-full relative overflow-hidden",
       "min-w-1/2",
+      "min-w-[100vw] md:min-w-[50vw]",
       className
     )}
   >

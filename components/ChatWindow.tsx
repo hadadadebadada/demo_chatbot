@@ -108,7 +108,7 @@ export function ChatWindow(props: {
   }
 
   return (
-<BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900 min-h-[400px] overflow-y-auto max-h-[600px] ">
+<BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900 min-h-[400px] overflow-y-auto max-h-[600px] sm:!min-h-[90vh] sm:!max-h-[90vh]">
 
 
     <div className={`flex flex-col items-center p-4 md:p-8 rounded grow ${(messages.length > 0 ? "border" : "")}`}>
