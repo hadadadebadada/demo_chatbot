@@ -32,7 +32,7 @@ export function ChatWindow(props: {
   const intemediateStepsToggle = showIntermediateStepsToggle && (
     <div>
       <input type="checkbox" id="show_intermediate_steps" name="show_intermediate_steps" checked={showIntermediateSteps} onChange={(e) => setShowIntermediateSteps(e.target.checked)}></input>
-      <label className="text-black" htmlFor="show_intermediate_steps"> Zwischenschritte anzeigen</label>
+      <label className="dark:text-white text-black" htmlFor="show_intermediate_steps"> Zwischenschritte anzeigen</label>
     </div>
   );
 
@@ -108,10 +108,10 @@ export function ChatWindow(props: {
   }
 
   return (
-<BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900 min-h-[400px]">
+<BackgroundGradient className="rounded-[22px] bg-white dark:bg-zinc-900 min-h-[400px] overflow-y-auto max-h-[600px] ">
 
 
-    <div className={`flex flex-col items-center p-4 md:p-8 rounded grow overflow-hidden ${(messages.length > 0 ? "border" : "")}`}>
+    <div className={`flex flex-col items-center p-4 md:p-8 rounded grow ${(messages.length > 0 ? "border" : "")}`}>
       <h2 className={`${messages.length > 0 ? "" : "hidden"} text-2xl`}>{emoji} {titleText}</h2>
       {messages.length === 0 ? emptyStateComponent : ""}
       <div

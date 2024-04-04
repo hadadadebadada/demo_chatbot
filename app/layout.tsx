@@ -20,7 +20,7 @@ import { EvervaultCard } from "@/components/ui/evervault-card";
 
 import Image from "next/image";
 import { Tabs } from "@/components/ui/tabs";
-
+import Footer from "@/components/Footer";
 
 const DummyContent = () => {
   return (
@@ -92,12 +92,58 @@ const tabs = [
 
 function MainNavbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
+
+  const scrollToDemo = () => {
+    const demoElement = document.getElementById('demo');
+    if (demoElement) {
+      // Scrolls to the "demo" div smoothly
+      demoElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+  const scrollToHosting = () => {
+    const hostingElement = document.getElementById('hosting');
+    if (hostingElement) {
+      // Scrolls to the "demo" div smoothly
+      hostingElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const scrollToProduct = () => {
+    const productElement = document.getElementById('product');
+    if (productElement) {
+      // Scrolls to the "demo" div smoothly
+      productElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div
-      className={cn("fixed top-10 inset-x-0 max-w-2xl mx-auto z-50", className)}
+  className={cn("fixed top-2 mx-auto max-w-2xl z-50", className)}
     >
       <Menu setActive={setActive}>
-        <MenuItem setActive={setActive} active={active} item="Services">
+        <button onClick={scrollToProduct} className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+          <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+            Produkt
+          </span>
+        </button>
+        <button onClick={scrollToDemo} className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+          <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+            Demo
+          </span>
+        </button>
+        <button onClick={scrollToHosting} className="relative inline-flex h-12 overflow-hidden rounded-full p-[1px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+          <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+          <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
+            Hosting
+          </span>
+        </button>
+      </Menu>
+    </div>
+  );
+}
+        {/* <MenuItem setActive={setActive} active={active} item="Services">
           <div className="flex flex-col space-y-4 text-sm">
             <HoveredLink href="/web-dev">Web Development</HoveredLink>
             <HoveredLink href="/interface-design">Interface Design</HoveredLink>
@@ -131,7 +177,7 @@ function MainNavbar({ className }: { className?: string }) {
               src="https://assets.aceternity.com/demos/Screenshot+2024-02-21+at+11.47.07%E2%80%AFPM.png"
               description="Respond to government RFPs, RFIs and RFQs 10x faster using AI"
             />
-          </div>
+          </div> onClick={scrollToDemo} onClick={scrollToDemo}
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Pricing">
           <div className="flex flex-col space-y-4 text-sm">
@@ -140,11 +186,7 @@ function MainNavbar({ className }: { className?: string }) {
             <HoveredLink href="/team">Team</HoveredLink>
             <HoveredLink href="/enterprise">Enterprise</HoveredLink>
           </div>
-        </MenuItem>
-      </Menu>
-    </div>
-  );
-}
+        </MenuItem> */}
 
 const publicSans = Public_Sans({ subsets: ["latin"] });
 const globeConfig = {
@@ -566,15 +608,16 @@ export default function RootLayout({
         <meta name="twitter:image" content="/images/og-image.png" />
       </head>
       <body>
+      <MainNavbar className="absolute top-2 left-1/2 transform -translate-x-1/2" />
+
+        <div  className="flex flex-col p-4 md:p-12 h-[100vh] max-w-[100vw] overflow-x-hidden">
+
+          <div id="product" className="flex items-center justify-center bg-[#0E0E10] h-[40rem] rounded-2xl w-full">
+     
 
 
-      <div className="flex flex-col p-4 md:p-12 h-[100vh] max-w-[100vw] overflow-x-hidden">
-    <div className="flex items-center justify-center bg-[#0E0E10] h-[40rem] rounded-2xl w-full">
-            <MainNavbar className="top-2" />
+            <WavyBackground className="max-w-4xl mx-auto pb-40 overflow-hidden">
 
- 
-            <WavyBackground className="max-w-4xl mx-auto pb-40">
-            
               <div style={{ minWidth: "50vw" }}>
                 <EvervaultCard text="Ein Produkt der Botschmiede" />
               </div>
@@ -582,7 +625,7 @@ export default function RootLayout({
             </WavyBackground>
             <TextRevealCard
               text="benutzerdefinierte Chatbots"
-              revealText="von Botschmiede"
+              revealText="Entdecken Sie Ihren Bot"
             >
               <TextRevealCardTitle>
                 Einbindung auf unbegrenzt vielen Websites
@@ -611,13 +654,13 @@ export default function RootLayout({
 
 
 
-          <div className="h-[20rem] md:h-[40rem] min-h-[95vh] [perspective:1000px] relative flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-40">
+          <div id="demo" className="h-[20rem] md:h-[40rem] min-h-[95vh] [perspective:1000px] relative flex flex-col max-w-5xl mx-auto w-full items-start justify-start my-40">
             <Tabs tabs={tabs} />
           </div>
 
 
 
-          <div className="flex flex-row items-center justify-center h-screen md:h-auto relative w-full">
+          <div id="hosting" className="flex flex-row items-center justify-center h-screen md:h-auto relative w-full">
             <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
               <motion.div
                 initial={{
@@ -646,7 +689,11 @@ export default function RootLayout({
               </div>
             </div>
           </div>
-        </div>
+ 
+          <Footer />       </div>
+ 
+
+
       </body>
     </html>
   );

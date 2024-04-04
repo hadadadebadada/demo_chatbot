@@ -40,19 +40,20 @@ export const Tabs = ({
     <>
       <div
         className={cn(
-          "flex flex-row items-center justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
+          "mt-44 flex flex-row items-center justify-start [perspective:1000px] relative overflow-auto sm:overflow-visible no-visible-scrollbar max-w-full w-full",
           containerClassName
         )}
       >
         {propTabs.map((tab, idx) => (
           <button
+          
             key={tab.title}
             onClick={() => {
               moveSelectedTabToTop(idx);
             }}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className={cn("relative px-4 py-2 rounded-full", tabClassName)}
+            className={cn("px-8 py-2 rounded-full relative bg-slate-700 text-white text-sm hover:shadow-2xl hover:shadow-white/[0.1] transition duration-200 border border-slate-600", tabClassName)}
             style={{
               transformStyle: "preserve-3d",
             }}
@@ -84,6 +85,13 @@ export const Tabs = ({
     </>
   );
 };
+{/* <button className="px-8 py-2 rounded-full relative bg-slate-700 text-white text-sm hover:shadow-2xl hover:shadow-white/[0.1] transition duration-200 border border-slate-600">
+  <div className="absolute inset-x-0 h-px w-1/2 mx-auto -top-px shadow-2xl  bg-gradient-to-r from-transparent via-teal-500 to-transparent" />
+  <span className="relative z-20">
+    Top gradient
+  </span>
+</button> */}
+
 
 export const FadeInDiv = ({
   className,
